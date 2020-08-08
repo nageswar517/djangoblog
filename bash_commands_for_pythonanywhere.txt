@@ -1,0 +1,8 @@
+1. pip3.7 install --user pythonanywhere
+configure git project
+2. pa_autoconfigure_django.py --pythn=3.7 <git repo link> - ensure that requirements are written in requirements.txt
+make sure that in django projects static folder must be there even if they are empty
+if you already have a web app use the following
+3. pa_autoconfigure)_django.py --python=3.7 <git repo link> -- only use if your website is not functional as it remove and recreate the website
+
+
