@@ -60,3 +60,6 @@ def like(request):
         p.save()
         data = {'i':p.likes}
         return JsonResponse(data)
+
+def books(request):
+    return render(request,'books.html')

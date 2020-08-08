@@ -23,3 +23,4 @@ class Post(UserTimeStamp):
 class Comment(UserTimeStamp):
 	post = models.ForeignKey(Post, on_delete = models.CASCADE)
 	comment = models.TextField()
+
